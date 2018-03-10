@@ -2,7 +2,7 @@ $(document).ready(function() {
 
     var topics = [];
     
-         function displayLike() {
+        function displayLike() {
     
         var x = $(this).data("search");
         console.log(x);
