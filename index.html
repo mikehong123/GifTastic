@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Starting the day LIKE</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body>
+
+<div class="jumbotron" id="header">
+  <h1>Starting the day LIKE</h1>
+  <br>
+  <h4>Click the buttons to display GIPHYs to jump start your day!<br>Click the GIPHYs to pause and play<br>Search to add more buttons!</h4>
+</div>
+
+<form class="form-inline" id="daySearch">
+  <div class="form-group">
+    <label for="dayInput">Starting the day like</label>
+    <input type="text" id="dayInput">
+  </div>
+  <!-- Button triggers day to be added -->
+  <input id="addday" type="submit" value="submit">
+</form>
+
+<br>
+
+<div class="row">
+  <div class="container">
+    <div class="btn-group inline pull-left">
+      <button class="btn btn-primary" id="day" data-search="Oh Yeah">Oh Yeah</button>
+      <button class="btn btn-primary" id="day" data-search="Happy">Happy</button>
+      <button class="btn btn-primary" id="day" data-search="Coffee">Coffee</button>
+      <button class="btn btn-primary" id="day" data-search="Busy">Busy</button>
+
+      <div id="myButtons"></div>
+    </div> <!--end of button group -->
+  </div> <!--end of container -->
+</div> <!--end of row -->
+
+
+<div class="row">
+  <div class="container">
+      <span><div id="gifArea"></div></span>
+  </div> <!--end of container -->
+</div> <!-- end of row  -->
+
+
+<script type="text/javascript" src="javascript.js"</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+</body>
+</html>

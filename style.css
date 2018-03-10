@@ -1,0 +1,44 @@
+#header {
+	background-color: #75b4b4;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 15px;
+    font-family: 'Indie Flower', cursive;
+}
+
+label {
+	font-size: 18px;
+}
+
+#day {
+    margin-right: 5px;
+	margin-left: 150px;
+	margin-top: 5px;
+    margin-bottom: 5px;
+    align-content: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    background: #ff9a55; 
+}
+
+#day:hover{
+    background-color:#489642;
+}
+
+#daySearch {
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+}
+
+#gifArea {
+	clear: both;
+	display: inline;
+	flex-wrap: wrap;
+}
+
+.daySearch {
+	padding: 2px;
+	width: 80%;
+}
